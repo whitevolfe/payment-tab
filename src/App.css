@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+
+* {
+  box-sizing: border-box;
+}
+
+.main{
+
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  padding: 50px 0 50px 0;
+     }
+
+.sub-main{
+
+  display: flex;
+  justify-content: center;
+  height: 1010px;
+  width: 35%;
+  background-color:  rgb(83, 78, 78);
+  padding-top: 30px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  
+
+}
+
+.container{
+  width: 100%;
+  height: 960px;
+
+  
+}
+
+.header{
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  background-color:  rgb(83, 78, 78);
+  margin-top: 10px;
+  
+  }
+
+
+
+.h1{
+  width: 60%;
+  color: white;
+  height: 60px;
+  float: left;
+  background-color:rgb(59, 55, 55);
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  margin-left: 10px;
+
+}
+
+.col-1 h3{
+  font-size: 20px;
+  margin: -40px 80px 5px 0;
+  
+
+}
+
+.col-1 p{
+  font-size: 13px;
+  margin: 5px 80px 5px 0;
+  color: rgb(170, 164, 155);
+  
+}
+
+.h2{
+  width: 10%;
+  background-color: pink;
+  height: 60px;
+  float: left;
+  background-color:rgb(59, 55, 55);
+  font-size: 40px;
+  color: rgb(170, 164, 155);
+  font-weight: lighter;
+}
+
+.h3{
+  width: 40%;
+  color: white;
+  height: 60px;
+  float: left;
+  background-color:rgb(59, 55, 55);
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  margin-right: 10px;
+  
+}
+
+.col-3 h4{
+  margin-right: 110px;
+  margin: -22px 100px 5px 0;
+}
+
+
+.icon{
+  display: flex;
+  margin-top: 20px;
+  margin-left: 200px;
+  color: rgb(170, 164, 155);
+}
+
+.icon-2{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 75px;
+    color: rgb(170, 164, 155);
+}
+
+.icon-3{
+  display: flex;
+    margin-top: -23px;
+    margin-left: 120px;
+}
+
+
+.second-container{
+  width:100%;
+  height: 400px;
+  background-color:rgb(59, 55, 55);
+  margin: -10px 0 10px 0;
+}
+
+.second-container h2{
+  text-align: left;
+  margin-left: 14px;
+  color: rgb(207, 201, 192);
+  font-weight: bold;
+  
+}
+
+.col-6 h4{
+  text-align: left;
+  margin-left: 16px;
+  color: white;
+}
+
+.col-6 p{
+  text-align: left;
+  margin-left: 16px;
+  color: rgb(170, 164, 155);
+  font-weight: bold;
+}
+
+.price-1{
+  margin-left: 151px;
+}
+.price-2{
+ margin-left: 198px;
+}
+.price-3{
+ margin-left: 138px;
+}
+.price-4{
+ margin-left: 148px;
+}
+.price-5{
+ margin-left: 274px;
+}
+
+.third-container{
+  width:100%;
+  height: 200px;
+  
+}
+
+.col-7 h4{
+  text-align: left;
+  margin-left: 16px;
+  color: white;
+}
+
+.col-7 p{
+  text-align: left;
+  margin-left: 16px;
+  color: rgb(170, 164, 155);
+  font-weight: bold;
+}
+
+.price-6{
+  margin-left: 251px;
+  color: white;
+}
+.price-7{
+ margin-left: 306px;
+ color: white;
+}
+.price-8{
+ margin-left: 286px;
+}
+
+.fourth-container{
+  width:100%;
+  height: 200px;
+  
+}
+
+.fourth-container h2{
+  text-align: left;
+  color: rgb(207, 201, 192);
+  margin-left: 14px;
+}
+
+.box{
+  width: 70px;
+  height: 70px;
+  display: flex;
+  margin: 40px;
+  background-color:  rgb(139, 137, 134);
+  border-radius: 8px;
+  
+}
+
+.box-1{
+  width: 70px;
+  height: 70px;
+  display: flex;
+  margin-top: -128px;
+  margin-left: 190px;
+  background-color:  rgb(139, 137, 134);
+  border-radius: 8px;
+  }
+
+.box-2{
+  width: 70px;
+  height: 70px;
+  display: flex;
+  margin-top: -70px;
+  margin-left: 340px;
+  background-color:  rgb(139, 137, 134);
+  border-radius: 8px;
+}
+
+
+
+.cash{
+  align-items: center;
+  display: flex;
+  margin-left: 22px;
+  margin-bottom: 15px;
+  color: bisque;
+  }
+
+.cash-para{
+  display: flex;
+  margin-right: 60px;
+  margin-left: -29px;
+  margin-top: 40px;
+  color: antiquewhite;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.debit-para{
+  display: flex;
+  margin-right: 60px;
+  margin-left: -33px;
+  margin-top: 40px;
+  color: antiquewhite;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.scan-para{
+  display: flex;
+  margin-right: 60px;
+  margin-left: -29px;
+  margin-top: 40px;
+  color: antiquewhite;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.debit-card{
+  align-items: center;
+  display: flex;
+  margin-left: 22px; 
+  margin-bottom: 15px;
+  color: bisque;
+  
+}
+
+.scan{
+  align-items: center;
+  display: flex;
+  margin-left: 22px; 
+  margin-bottom: 15px;
+  color: bisque;
+}
+
+.ficon-1{
+  display: flex;
+  margin: 20px 0 20px 55px;
+  color: aliceblue;
+}
+
+.footer{
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  margin: 58px 0 40px 0;
+}
+
+.f1{
+  width: 100%;
+  background-color: rgb(75, 109, 184);
+  height: 60px;
+  float: left;
+  margin-left: 10px;
+  border-bottom-left-radius: 20px;
+  
+  
+}
+
+.f1 h4{
+  color: aliceblue;
+}
+
+.f2{
+  width: 40%;
+  background-color: rgb(54, 54, 219);
+  height: 60px;
+  margin-right: 10px;
+  border-bottom-right-radius: 20px;
+  
+  }
+
+
+
+
